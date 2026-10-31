@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "For Shanthi — a birthday letter",
+      "hasCanvas": false,
+      "bodyTextLen": 1821,
+      "bodyTextHash": "8eca2aa9d0677b7c18ee03cae0e5c38757483ead9aacb59edaca0a3b6878546d",
+      "bodyTextPrefix": "Skip to the letter Shanthi Letter Wishes Pictures Journal FOR SH",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "For Shanthi — a birthday letter",
+      "hasCanvas": false,
+      "bodyTextLen": 1790,
+      "bodyTextHash": "722c9c6e3abdb355ff28efa45a0a02f31c6878fdb5679db087b07e3e804e6a13",
+      "bodyTextPrefix": "Skip to the letter Shanthi FOR SHANTHI Happy birthday, Shanthi. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
