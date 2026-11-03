@@ -3,18 +3,15 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "For Shanthi";
-
 export const Route = createRootRoute({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: APP_NAME },
+      { title: "Happy birthday, Shanthi" },
       {
         name: "description",
-        content:
-          "A birthday letter for Shanthi — wishes, moving pictures, and a small journal, in olive.",
+        content: "Happy birthday, Shanthi. Wishing you happiness, success and balance in all you do.",
       },
       { name: "theme-color", content: "#24301c" },
     ],

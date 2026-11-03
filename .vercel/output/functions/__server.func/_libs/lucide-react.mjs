@@ -1,5 +1,5 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { J as require_react } from "./@tanstack/react-router+[...].mjs";
+import { q as require_react } from "./@tanstack/react-router+[...].mjs";
 //#region node_modules/lucide-react/dist/esm/shared/src/utils.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 /**
@@ -82,9 +82,20 @@ var createLucideIcon = (iconName, iconNode) => {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var ChevronLeft = createLucideIcon("chevron-left", [["path", {
-	d: "m15 18-6-6 6-6",
-	key: "1wnfg3"
+var Pause = createLucideIcon("pause", [["rect", {
+	x: "14",
+	y: "4",
+	width: "4",
+	height: "16",
+	rx: "1",
+	key: "zuxfzm"
+}], ["rect", {
+	x: "6",
+	y: "4",
+	width: "4",
+	height: "16",
+	rx: "1",
+	key: "1okwgv"
 }]]);
 /**
 * @license lucide-react v0.510.0 - ISC
@@ -92,30 +103,10 @@ var ChevronLeft = createLucideIcon("chevron-left", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var ChevronRight = createLucideIcon("chevron-right", [["path", {
-	d: "m9 18 6-6-6-6",
-	key: "mthhwq"
+var Play = createLucideIcon("play", [["polygon", {
+	points: "6 3 20 12 6 21 6 3",
+	key: "1oa8hb"
 }]]);
-/**
-* @license lucide-react v0.510.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Menu = createLucideIcon("menu", [
-	["path", {
-		d: "M4 12h16",
-		key: "1lakjw"
-	}],
-	["path", {
-		d: "M4 18h16",
-		key: "19g7jn"
-	}],
-	["path", {
-		d: "M4 6h16",
-		key: "1o0s65"
-	}]
-]);
 /**
 * @license lucide-react v0.510.0 - ISC
 *
@@ -150,4 +141,4 @@ var X = createLucideIcon("x", [["path", {
 	key: "d8bk6v"
 }]]);
 //#endregion
-export { ChevronLeft as a, ChevronRight as i, TriangleAlert as n, Menu as r, X as t };
+export { Pause as i, TriangleAlert as n, Play as r, X as t };
